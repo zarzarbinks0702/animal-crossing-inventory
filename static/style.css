@@ -1,0 +1,95 @@
+body {
+  margin: 5px 20px;
+}
+
+.navbar ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+.navbar {
+  text-align: right;
+}
+
+header {
+  display: inline;
+  height: 5em;
+  position: relative;
+}
+
+.new-item-form {
+  margin: 30px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#update-success {
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+}
+
+.upload {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 10px;
+}
+
+label {
+  justify-content: center;
+  align-content: center;
+  font-weight: bold;
+}
+
+.controller-filters {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controller-filters .btn {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.table {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: large;
+}
+
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  font-weight: lighter;
+}
+
+.image img {
+  width: 150px;
+  height: 100px;
+}
+
+.update_low_count {
+  margin: 12px;
+}
