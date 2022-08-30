@@ -93,3 +93,9 @@ td {
 .update_low_count {
   margin: 12px;
 }
+
+.inventory-categories ul{
+  list-style: unset;
+  justify-content: center;
+  display: grid;
+}
